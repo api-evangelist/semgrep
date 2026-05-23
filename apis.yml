@@ -1,0 +1,150 @@
+aid: semgrep
+url: https://raw.githubusercontent.com/api-evangelist/semgrep/refs/heads/main/apis.yml
+name: Semgrep
+kind: company
+description: >-
+  Semgrep is a fast, open-source static analysis engine and an associated AppSec
+  Platform (Semgrep Code, Semgrep Supply Chain, and Semgrep Secrets) that finds
+  bugs, security issues, and policy violations across source code, dependencies,
+  and credentials. The open-source CLI runs pattern-based rules locally or in
+  CI; the AppSec Platform layers a managed control plane on top with
+  organization-wide policy, triage workflows, findings management, and an OpenAPI-described
+  REST API for deployments, projects, findings, scans, secrets, and supply chain
+  data. Editor, CI, and SCM integrations (VS Code, JetBrains, GitHub, GitLab,
+  Bitbucket, Azure DevOps) round out the developer surface.
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+tags:
+  - Static Analysis
+  - SAST
+  - Application Security
+  - Supply Chain
+  - Secrets Detection
+  - Developer Tools
+  - DevSecOps
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+apis:
+  - aid: semgrep:appsec-platform-api
+    name: Semgrep AppSec Platform REST API
+    description: >-
+      OpenAPI-described REST API for the Semgrep AppSec Platform. Lists
+      deployments, projects, findings, scans, secrets, and supply chain data,
+      and supports CI/CD and triage automation. Requires a Team or Enterprise
+      tier account and an API token provisioned in account settings.
+    humanURL: https://semgrep.dev/api/v1/docs/
+    baseURL: https://semgrep.dev/api/v1
+    tags:
+      - REST API
+      - AppSec
+      - Findings
+      - Scans
+      - Deployments
+    properties:
+      - type: Documentation
+        url: https://semgrep.dev/api/v1/docs/
+      - type: Documentation
+        url: https://semgrep.dev/docs/semgrep-appsec-platform/semgrep-api
+  - aid: semgrep:cli
+    name: Semgrep CLI
+    description: >-
+      Open-source command-line static analysis engine. Runs locally and in CI
+      to scan code with community and custom rules, emit SARIF/JSON output, and
+      enforce policies. Authored primarily in OCaml with Python tooling; LGPL-2.1
+      licensed.
+    humanURL: https://github.com/semgrep/semgrep
+    baseURL: https://github.com/semgrep/semgrep
+    tags:
+      - CLI
+      - Open Source
+      - Static Analysis
+    properties:
+      - type: Repository
+        url: https://github.com/semgrep/semgrep
+  - aid: semgrep:rules
+    name: Semgrep Community Rules
+    description: >-
+      Community and Semgrep-maintained rule packs covering security, correctness,
+      best-practice, and supply chain findings across many languages and
+      frameworks. Consumed by the CLI and the AppSec Platform.
+    humanURL: https://github.com/semgrep/semgrep-rules
+    baseURL: https://github.com/semgrep/semgrep-rules
+    tags:
+      - Rules
+      - Security
+      - Open Source
+    properties:
+      - type: Repository
+        url: https://github.com/semgrep/semgrep-rules
+  - aid: semgrep:vscode
+    name: Semgrep VS Code Extension
+    description: >-
+      Visual Studio Code extension that surfaces Semgrep findings inline while
+      developers edit code, with quick-fix and triage actions tied to the
+      AppSec Platform.
+    humanURL: https://github.com/semgrep/semgrep-vscode
+    baseURL: https://github.com/semgrep/semgrep-vscode
+    tags:
+      - IDE
+      - VS Code
+      - Editor Integration
+    properties:
+      - type: Repository
+        url: https://github.com/semgrep/semgrep-vscode
+  - aid: semgrep:interfaces
+    name: Semgrep Interfaces
+    description: >-
+      Shared interface definitions (ATD-generated types) used between the
+      Semgrep CLI, AppSec Platform, and language-specific clients to keep
+      output schemas in sync.
+    humanURL: https://github.com/semgrep/semgrep-interfaces
+    baseURL: https://github.com/semgrep/semgrep-interfaces
+    tags:
+      - Schemas
+      - Interfaces
+      - Open Source
+    properties:
+      - type: Repository
+        url: https://github.com/semgrep/semgrep-interfaces
+  - aid: semgrep:docs
+    name: Semgrep Documentation
+    description: >-
+      Source for the Semgrep product documentation site, including CLI
+      reference, rule-writing guides, AppSec Platform docs, and API reference.
+    humanURL: https://semgrep.dev/docs/
+    baseURL: https://github.com/semgrep/semgrep-docs
+    tags:
+      - Documentation
+      - Open Source
+    properties:
+      - type: Repository
+        url: https://github.com/semgrep/semgrep-docs
+common:
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/semgrep
+  - type: Website
+    url: https://semgrep.dev/
+  - type: Documentation
+    url: https://semgrep.dev/docs/
+  - type: GitHub
+    url: https://github.com/semgrep
+  - type: Plans
+    url: plans/semgrep-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/semgrep-rate-limits.yml
+  - type: FinOps
+    url: finops/semgrep-finops.yml
+  - type: Integrations
+    url: https://semgrep.dev/docs/category/integrations
+integrations:
+  - name: GitHub
+  - name: GitLab
+  - name: Bitbucket
+  - name: Azure DevOps
+  - name: Jira
+  - name: Slack
+  - name: VS Code
+  - name: JetBrains
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
