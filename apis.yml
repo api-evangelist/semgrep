@@ -136,6 +136,8 @@ common:
     url: finops/semgrep-finops.yml
   - type: Integrations
     url: https://semgrep.dev/docs/category/integrations
+  - type: LLMsTxt
+    url: https://semgrep.dev/llms.txt
 integrations:
   - name: GitHub
   - name: GitLab
