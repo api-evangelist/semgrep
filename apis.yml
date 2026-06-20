@@ -12,7 +12,7 @@ description: >-
   REST API for deployments, projects, findings, scans, secrets, and supply chain
   data. Editor, CI, and SCM integrations (VS Code, JetBrains, GitHub, GitLab,
   Bitbucket, Azure DevOps) round out the developer surface.
-image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 tags:
   - Static Analysis
   - SAST
