@@ -120,6 +120,12 @@ apis:
       - type: Repository
         url: https://github.com/semgrep/semgrep-docs
 common:
+  - type: TrustCenter
+    url: security/semgrep-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/semgrep-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/semgrep-domain-security.yml
   - type: LinkedIn
     url: https://www.linkedin.com/company/semgrep
   - type: Website
