@@ -132,6 +132,9 @@ apis:
       - type: Repository
         url: https://github.com/semgrep/semgrep-docs
 common:
+  - type: License
+    name: LGPL-2.1
+    url: https://github.com/semgrep/semgrep/blob/develop/LICENSE
   - type: TrustCenter
     url: security/semgrep-trust-center.yml
   - type: VulnerabilityDisclosure
