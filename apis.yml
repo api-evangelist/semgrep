@@ -51,6 +51,12 @@ apis:
       - AppSec
       - Findings
       - Scans
+      - Deployment
+    tags_raw:
+      - REST API
+      - AppSec
+      - Findings
+      - Scans
       - Deployments
     properties:
       - type: Documentation
@@ -68,6 +74,10 @@ apis:
     baseURL: https://github.com/semgrep/semgrep
     tags:
       - CLI
+      - Open-Source
+      - Static Analysis
+    tags_raw:
+      - CLI
       - Open Source
       - Static Analysis
     properties:
@@ -82,6 +92,10 @@ apis:
     humanURL: https://github.com/semgrep/semgrep-rules
     baseURL: https://github.com/semgrep/semgrep-rules
     tags:
+      - Rules
+      - Security
+      - Open-Source
+    tags_raw:
       - Rules
       - Security
       - Open Source
@@ -114,6 +128,10 @@ apis:
     tags:
       - Schemas
       - Interfaces
+      - Open-Source
+    tags_raw:
+      - Schemas
+      - Interfaces
       - Open Source
     properties:
       - type: Repository
@@ -126,6 +144,9 @@ apis:
     humanURL: https://semgrep.dev/docs/
     baseURL: https://github.com/semgrep/semgrep-docs
     tags:
+      - Documentation
+      - Open-Source
+    tags_raw:
       - Documentation
       - Open Source
     properties:
