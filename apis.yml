@@ -139,7 +139,7 @@ apis:
     humanURL: https://github.com/semgrep/semgrep-interfaces
     baseURL: https://github.com/semgrep/semgrep-interfaces
     tags:
-      - Schemas
+      - Schema
       - Interfaces
       - Open-Source
     tags_raw:
