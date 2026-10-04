@@ -87,12 +87,13 @@ apis:
     baseURL: https://github.com/semgrep/semgrep
     tags:
       - CLI
-      - Open-Source
+      - Open Source
       - Static Analysis
     tags_raw:
       - CLI
       - Open Source
       - Static Analysis
+      - Open-Source
     properties:
       - type: Repository
         url: https://github.com/semgrep/semgrep
@@ -107,11 +108,12 @@ apis:
     tags:
       - Rules
       - Security
-      - Open-Source
+      - Open Source
     tags_raw:
       - Rules
       - Security
       - Open Source
+      - Open-Source
     properties:
       - type: Repository
         url: https://github.com/semgrep/semgrep-rules
@@ -141,11 +143,12 @@ apis:
     tags:
       - Schema
       - Interfaces
-      - Open-Source
+      - Open Source
     tags_raw:
       - Schemas
       - Interfaces
       - Open Source
+      - Open-Source
     properties:
       - type: Repository
         url: https://github.com/semgrep/semgrep-interfaces
@@ -158,10 +161,11 @@ apis:
     baseURL: https://github.com/semgrep/semgrep-docs
     tags:
       - Documentation
-      - Open-Source
+      - Open Source
     tags_raw:
       - Documentation
       - Open Source
+      - Open-Source
     properties:
       - type: Repository
         url: https://github.com/semgrep/semgrep-docs
