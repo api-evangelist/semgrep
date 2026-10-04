@@ -1,7 +1,11 @@
 aid: semgrep
+
 url: https://raw.githubusercontent.com/api-evangelist/semgrep/refs/heads/main/apis.yml
+
 name: Semgrep
+
 kind: company
+
 description: >-
   Semgrep is a fast, open-source static analysis engine and an associated AppSec
   Platform (Semgrep Code, Semgrep Supply Chain, and Semgrep Secrets) that finds
@@ -12,6 +16,7 @@ description: >-
   REST API for deployments, projects, findings, scans, secrets, and supply chain
   data. Editor, CI, and SCM integrations (VS Code, JetBrains, GitHub, GitLab,
   Bitbucket, Azure DevOps) round out the developer surface.
+
 deliveryModel:
   model: open-core
   license: LGPL-2.1
@@ -25,6 +30,7 @@ deliveryModel:
   - pricing
   generated: '2026-08-28'
   method: derived
+
 accessModel:
   pricing: free
   onboarding: unknown
@@ -37,7 +43,9 @@ accessModel:
   - plans
   generated: '2026-07-22'
   method: derived
+
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/semgrep.png
+
 tags:
   - Static Analysis
   - SAST
@@ -46,9 +54,115 @@ tags:
   - Secrets Detection
   - Developer Tools
   - DevSecOps
+
 created: '2026-05-23'
+
 modified: '2026-05-23'
+
 specificationVersion: '0.23'
+
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
+
+  - type: Blog
+    url: https://semgrep.dev/blog/
+  - type: Roadmap
+    url: https://semgrep.dev/roadmap
+  - type: Pricing
+    url: https://semgrep.dev/pricing
+  - type: TermsOfService
+    url: https://semgrep.dev/terms
+  - type: PrivacyPolicy
+    url: https://semgrep.dev/privacy
+  - type: Support
+    url: https://semgrep.dev/support
+  - type: GettingStarted
+    url: https://semgrep.dev/getting-started
+  - type: SignUp
+    url: https://semgrep.dev/signup
+  - type: Login
+    url: https://semgrep.dev/login
+  - type: Postman
+    url: https://www.postman.com/semgrep/workspace/semgrep-api
+  - type: DeveloperPortal
+    url: https://semgrep.dev/
+
+common:
+  - type: CLI
+    url: cli/semgrep-cli.yml
+  - type: Compliance
+    url: https://trust.semgrep.dev/
+  - type: Authentication
+    url: authentication/semgrep-authentication.yml
+  - type: LLMsTxt
+    url: llms/semgrep-llms.txt
+  - type: AgentCard
+    url: a2a/semgrep-a2a.yml
+  - type: SecurityTxt
+    url: well-known/semgrep-status-security.txt
+  - type: SecurityTxt
+    url: well-known/semgrep-security.txt
+  - type: SecurityTxt
+    url: well-known/semgrep-app-security.txt
+  - type: WellKnown
+    url: well-known/semgrep-well-known.yml
+  - type: Hosts
+    url: hosts/semgrep-hosts.yml
+  - type: Vendors
+    url: vendors/semgrep-vendors.yml
+  - type: SDKs
+    url: packages/semgrep-packages.yml
+  - type: Packages
+    url: packages/semgrep-packages.yml
+  - type: TermsOfService
+    url: https://semgrep.dev/legal/terms
+  - type: StatusPage
+    url: https://status.semgrep.dev/
+  - type: Pricing
+    url: https://semgrep.dev/pricing/
+  - type: GettingStarted
+    url: https://docs.semgrep.dev/semgrep-guardian/quickstart
+  - type: DeveloperPortal
+    url: https://docs.semgrep.dev</link
+  - type: APIReference
+    url: https://docs.semgrep.dev/api-reference/v1/Introduction
+  - type: IssueTracker
+    url: https://github.com/semgrep/semgrep/issues
+  - type: Releases
+    url: https://github.com/semgrep/semgrep/releases
+  - type: SecurityPolicy
+    url: https://github.com/semgrep/semgrep/blob/develop/SECURITY.md
+  - type: CodeOfConduct
+    url: https://github.com/semgrep/semgrep/blob/develop/CODE_OF_CONDUCT.md
+  - type: ContributionGuide
+    url: https://github.com/semgrep/semgrep/blob/develop/CONTRIBUTING.md
+  - type: License
+    name: LGPL-2.1
+    url: https://github.com/semgrep/semgrep/blob/develop/LICENSE
+  - type: TrustCenter
+    url: security/semgrep-trust-center.yml
+  - type: VulnerabilityDisclosure
+    url: security/semgrep-vulnerability-disclosure.yml
+  - type: DomainSecurity
+    url: security/semgrep-domain-security.yml
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/semgrep
+  - type: Website
+    url: https://semgrep.dev/
+  - type: Documentation
+    url: https://semgrep.dev/docs/
+  - type: GitHub
+    url: https://github.com/semgrep
+  - type: Plans
+    url: plans/semgrep-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/semgrep-rate-limits.yml
+  - type: FinOps
+    url: finops/semgrep-finops.yml
+  - type: LlmsText
+    url: https://semgrep.dev/llms.txt
+
 apis:
   - aid: semgrep:appsec-platform-api
     name: Semgrep AppSec Platform REST API
@@ -165,44 +279,7 @@ apis:
     properties:
       - type: Repository
         url: https://github.com/semgrep/semgrep-docs
-common:
-  - type: IssueTracker
-    url: https://github.com/semgrep/semgrep/issues
-  - type: Releases
-    url: https://github.com/semgrep/semgrep/releases
-  - type: SecurityPolicy
-    url: https://github.com/semgrep/semgrep/blob/develop/SECURITY.md
-  - type: CodeOfConduct
-    url: https://github.com/semgrep/semgrep/blob/develop/CODE_OF_CONDUCT.md
-  - type: ContributionGuide
-    url: https://github.com/semgrep/semgrep/blob/develop/CONTRIBUTING.md
-  - type: License
-    name: LGPL-2.1
-    url: https://github.com/semgrep/semgrep/blob/develop/LICENSE
-  - type: TrustCenter
-    url: security/semgrep-trust-center.yml
-  - type: VulnerabilityDisclosure
-    url: security/semgrep-vulnerability-disclosure.yml
-  - type: DomainSecurity
-    url: security/semgrep-domain-security.yml
-  - type: LinkedIn
-    url: https://www.linkedin.com/company/semgrep
-  - type: Website
-    url: https://semgrep.dev/
-  - type: Documentation
-    url: https://semgrep.dev/docs/
-  - type: GitHub
-    url: https://github.com/semgrep
-  - type: Plans
-    url: plans/semgrep-plans-pricing.yml
-  - type: RateLimits
-    url: rate-limits/semgrep-rate-limits.yml
-  - type: FinOps
-    url: finops/semgrep-finops.yml
-  - type: Integrations
-    url: https://semgrep.dev/docs/category/integrations
-  - type: LlmsText
-    url: https://semgrep.dev/llms.txt
+
 integrations:
   - name: GitHub
   - name: GitLab
@@ -212,6 +289,21 @@ integrations:
   - name: Slack
   - name: VS Code
   - name: JetBrains
-maintainers:
-  - FN: Kin Lane
-    email: kin@apievangelist.com
+
+x-coverage:
+  state: unreadable
+  reason: no-machine-readable-spec
+  method: derived
+  generated: '2026-10-03'
+  generator: derive-coverage.py (pre-flight evidence)
+  detail: >-
+    the company publishes developer documentation but serves no machine-readable contract from it
+  evidence:
+  - url: https://semgrep.dev/
+    status: 200
+x-enrichment:
+  date: '2026-10-03'
+  status: enriched
+  artifacts_added: 19
+  pass: modular-v1
+  engine: identity=local,contract=local,surfaces=local,docs=local,regulatory=local

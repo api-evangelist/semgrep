@@ -1,0 +1,33 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.semgrep.dev/semgrep-guardian/install-cli.md
+sources:
+- https://docs.semgrep.dev/semgrep-guardian/install-cli.md
+- https://docs.semgrep.dev/for-developers/cli.md
+install:
+- method: pipx
+  command: pipx install semgrep
+- method: uv
+  command: uv tool install semgrep
+- method: Homebrew
+  command: brew install semgrep
+commands:
+- group: verify
+  commands:
+  - semgrep --version
+- group: login
+  commands:
+  - semgrep login && semgrep install-semgrep-pro
+- group: ci dry‑run
+  commands:
+  - semgrep ci --dry-run
+- group: scan
+  commands:
+  - semgrep scan
+  - semgrep scan --pro
+- group: custom rule
+  commands:
+  - semgrep scan --pro --config [CUSTOM_RULE].yaml
+binary: semgrep
+docs: https://docs.semgrep.dev/semgrep-guardian/install-cli.md

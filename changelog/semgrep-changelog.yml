@@ -1,0 +1,66 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.semgrep.dev/writing-rules/experiments/deprecated-experiments.md
+sources:
+- https://docs.semgrep.dev/writing-rules/experiments/deprecated-experiments.md
+- https://docs.semgrep.dev/whats-new/index.md
+- https://docs.semgrep.dev/release-notes/2026-09-21.md
+- https://docs.semgrep.dev/release-notes/2026-09-14.md
+entries:
+- breaking: false
+  highlights:
+  - SCIM provisioning is now in public beta.
+  - Redesigned Settings > Billing allows selecting any combination of products and purchase them in a single checkout with one invoice.
+  date: '2026-09-21'
+- breaking: false
+  highlights:
+  - Semgrep Guardian now reports status in your AI coding agent.
+  - You can export Agentic Workflows issues as CSV from the Issues page and through the public API.
+  date: '2026-09-14'
+- breaking: false
+  highlights:
+  - Agentic Workflows for organizations on the minimal data retention policy can now run all nine pre‑built Agentic Workflows.
+  date: '2026-09-07'
+- breaking: false
+  highlights:
+  - Autofix is enabled for all customers.
+  - Supply Chain Autofix is independent of Upgrade Guidance.
+  date: '2026-08-31'
+- breaking: false
+  highlights:
+  - Developer exception requests are in public beta.
+  - Usage and Billing are separate Settings tabs.
+  date: '2026-08-24'
+- breaking: false
+  highlights:
+  - '`nosemgrep` setting is in public beta.'
+  - A Workflow issues column is now available on the Projects page.
+  date: '2026-08-17'
+- breaking: false
+  highlights:
+  - Fix multiple Code findings in one Autofix PR or MR.
+  - Agentic Workflows issues API is now available through the experimental v2 API.
+  date: '2026-08-10'
+- breaking: false
+  highlights:
+  - 'Unified Policies migration schedule: Semgrep will start migrating some organizations to Unified Policies on August 24, 2026, and will sunset
+    the current version of Policies on November 1, 2026.'
+  - Findings counts on the Projects page now include Reviewing and To fix findings, in addition to Open.
+  date: '2026-08-03'
+- breaking: false
+  highlights:
+  - Semgrep Agentic Workflows is in public beta.
+  - Supply Chain incident Slack notifications are now available.
+  date: '2026-07-27'
+- breaking: false
+  highlights:
+  - Unified Policies is generally available.
+  date: '2026-07-13'
+- breaking: false
+  highlights:
+  - Archive projects in Semgrep.
+  - Vulnerability class conditions can now be used in remediation policy automations.
+  date: '2026-07-06'
+note: Versioning scheme and current version are not specified on the provided pages.
+docs: https://docs.semgrep.dev/writing-rules/experiments/deprecated-experiments.md
