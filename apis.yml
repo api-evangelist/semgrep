@@ -47,7 +47,7 @@ tags:
   - Developer Tools
   - DevSecOps
 created: '2026-05-23'
-modified: '2026-05-23'
+modified: '2026-10-06'
 specificationVersion: '0.23'
 apis:
   - aid: semgrep:appsec-platform-api
@@ -170,6 +170,8 @@ apis:
       - type: Repository
         url: https://github.com/semgrep/semgrep-docs
 common:
+  - url: https://semgrep.dev/blog/
+    type: Blog
   - type: IssueTracker
     url: https://github.com/semgrep/semgrep/issues
   - type: Releases
