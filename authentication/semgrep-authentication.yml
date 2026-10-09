@@ -1,0 +1,19 @@
+generated: '2026-10-03'
+method: searched
+generator: extract-docs-artifacts.py (local)
+source: https://docs.semgrep.dev/semgrep-guardian/authentication.md
+sources:
+- https://docs.semgrep.dev/semgrep-guardian/authentication.md
+- https://docs.semgrep.dev/semgrep-guardian/quickstart.md
+- https://docs.semgrep.dev/semgrep-guardian/choose-your-setup.md
+- https://docs.semgrep.dev/semgrep-guardian/ide-setup/claude-code.md
+description: 'Semgrep Guardian supports two authentication methods: OAuth for Claude Code and API token for other coding agents.'
+schemes:
+- type: oauth2
+  name: OAuth
+  evidence: Claude Code uses Semgrep's hosted remote server and authenticates through OAuth, so developers don't need to install or run the Semgrep
+    CLI.
+- type: apiKey
+  name: API token
+  evidence: Each developer signs in with `semgrep login`, which opens a browser-based login flow.
+docs: https://docs.semgrep.dev/semgrep-guardian/authentication.md

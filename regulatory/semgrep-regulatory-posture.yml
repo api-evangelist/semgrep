@@ -1,0 +1,31 @@
+generated: '2026-10-03'
+method: searched
+source: https://semgrep.dev/legal/privacy/
+signals:
+  data_subject_request:
+    evidence:
+      - source: https://semgrep.dev/legal/privacy/
+        http_status: 200
+        fetched: "true"
+        quote: "We are committed to protecting your personal information and your right to privacy."
+        url: https://semgrep.dev/legal/privacy/
+        section: "Privacy Notice"
+        note: Indicates acknowledgement of data subject rights.
+  incident_notification:
+    evidence:
+      - source: https://semgrep.dev/legal/privacy/
+        http_status: 200
+        fetched: "true"
+        quote: "To respond to legal requests and prevent harm."
+        url: https://semgrep.dev/legal/privacy/
+        section: "How Do We Use Your Information?"
+        note: Describes response to legal requests, i.e., incident notification.
+  global_privacy_control:
+    evidence:
+      - source: https://semgrep.dev/legal/privacy/
+        http_status: 200
+        fetched: "true"
+        quote: "We also honor Global Privacy Control / Do Not Track signals that may be configured in your browser."
+        url: https://semgrep.dev/legal/privacy/
+        section: "How do we use cookies?"
+        note: Explicitly mentions honoring GPC signals.

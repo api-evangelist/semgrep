@@ -1,4 +1,4 @@
-generated: '2026-07-11'
+generated: '2026-10-03'
 method: searched
 probe: true
 source: https://trust.semgrep.dev/
@@ -10,6 +10,4 @@ evidence:
 - source: https://trust.semgrep.dev/
   keywords:
   - soc 2
-  - soc2
-  - trust center
   - gdpr
