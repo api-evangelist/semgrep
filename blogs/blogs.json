@@ -1,0 +1,14 @@
+{
+  "repo": "semgrep",
+  "feeds": [
+    {
+      "source": "https://semgrep.dev/blog/",
+      "feed_url": "https://semgrep.dev/blog/rss/",
+      "title": "",
+      "saved": 4,
+      "method": "discovered"
+    }
+  ],
+  "post_count": 4,
+  "fetched": "2026-10-10T13:15:00Z"
+}
