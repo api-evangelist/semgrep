@@ -88,14 +88,51 @@ edges:
     detected: '2026-10-18'
   detected_by: sweep-software-supply-chain.py
   first_seen: '2026-10-18'
+- partner_name: RubyGems
+  partner: rubygems
+  partner_match: register
+  type: register
+  direction: provider-built
+  category: official SDK (Ruby)
+  evidence: https://rubygems.org/gems/semgrep
+  channel: package-registry
+  relationship: distribution-channel
+  contract_reference:
+    register: RubyGems (public registry JSON)
+    spec_file: null
+    language: Ruby
+    packages:
+    - name: semgrep
+      version: 0.0.1
+      released: '2020-12-16'
+      released_field: version_created_at
+      lapsed: true
+      page: https://rubygems.org/gems/semgrep
+      repo_leg: domain:semgrep.dev
+      publisher_leg: org:semgrep
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  detected_by: sweep-official-sdks.py
+  first_seen: '2026-10-18'
 generated: '2026-10-15'
 method: searched
 source:
 - https://a2aregistry.org/api/agents
 checked:
 - https://a2aregistry.org/api/agents
+- https://api.nuget.org/v3
+- https://crates.io/api/v1
 - https://cyclonedx.org/tool-center/
 - https://github.com/PipedreamHQ/pipedream/tree/94800dd6de6640b942c65ea7ee655f71ac56d438/components/
+- https://proxy.golang.org
+- https://pypi.org/pypi
 - https://raw.githubusercontent.com/ossf/ossf-landscape/0c5085851606608158f3adb796e5c22265ee174d/landscape.yml
+- https://registry.npmjs.org
+- https://repo1.maven.org/maven2
+- https://rubygems.org/api/v1
 - https://spdx.dev/use/spdx-tools/
 - https://www.openchainproject.org/community-of-conformance

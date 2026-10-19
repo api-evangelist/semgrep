@@ -81,3 +81,34 @@
     detected: '2026-10-18'
   status: not-a-workflow
   arazzo: null
+- slug: semgrep-rubygems
+  label: RubyGems
+  partner: rubygems
+  partner_name: RubyGems
+  category: official SDK (Ruby)
+  type: register
+  channel: package-registry
+  evidence: https://rubygems.org/gems/semgrep
+  source: edge
+  relationship: distribution-channel
+  contract_reference:
+    register: RubyGems (public registry JSON)
+    spec_file: null
+    language: Ruby
+    packages:
+    - name: semgrep
+      version: 0.0.1
+      released: '2020-12-16'
+      released_field: version_created_at
+      lapsed: true
+      page: https://rubygems.org/gems/semgrep
+      repo_leg: domain:semgrep.dev
+      publisher_leg: org:semgrep
+      matched_by: domain
+    current: false
+    signal_note: 'an official package on the registry: distribution, not an integration; lapsed = no release in
+      24 months'
+    detected_by: sweep-official-sdks.py
+    detected: '2026-10-18'
+  status: not-a-workflow
+  arazzo: null
