@@ -5,10 +5,17 @@
       "source": "https://semgrep.dev/blog/",
       "feed_url": "https://semgrep.dev/blog/rss/",
       "title": "",
-      "saved": 4,
+      "saved": 0,
       "method": "discovered"
+    },
+    {
+      "source": "https://semgrep.dev/blog/rss/",
+      "feed_url": "https://semgrep.dev/blog/rss/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
     }
   ],
-  "post_count": 4,
-  "fetched": "2026-10-10T13:15:00Z"
+  "post_count": 48,
+  "fetched": "2026-10-17T14:53:57Z"
 }
